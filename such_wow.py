@@ -1,3 +1,15 @@
+'''
+##### Script such_wow #####
+
+# Recibe: Desde la linea de comandos, separados por espacios, dos valores enteros como parametros.
+	* Los dos valores pueden ser enteros positivos o enteros negativos.
+	* El primer valor debe ser menor o igual al segundo valor.
+# Retorna: La impresion de una lista con ciertos valores remplazados por palabras clave:
+	* Si el numero es multiplo de 3 y de 5: Se remplaza por 'SuchWow'
+	* Si el numero es multiplo de 3: Se remplaza por 'Such'
+	* Si el numero es multiplo de 5: Se remplaza por 'Wow'
+'''
+
 import sys
 
 def such_wow(initial, final):
