@@ -10,4 +10,4 @@ try:
 	final= int(sys.argv[2])
 	print(such_wow(initial, final)) if initial <= final else print('El valor inicial debe ser menor o igual que el valor final')
 except:
-	print('Solo se permiten dos valores enteros positivos o negativos, separados por espacios.')
+	print('Solo se permiten dos valores enteros positivos o negativos, separados por espacios. El primer valor debe ser menor o igual al segundo valor.')
