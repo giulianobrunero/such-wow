@@ -1,8 +1,11 @@
 import sys
 
 def such_wow(initial, final):
+	# Creacion de la lista.
 	l = [i for i in range(initial, final+1)]
+	# Remplazo los multiplos de la lista por las palabras clave y obtengo la lista parceada.
 	lp = [('SuchWow' if (n%3==0 and n%5==0) else 'Such' if (n%3==0) else 'Wow' if (n%5==0) else n) for n in l]
+	# Retorno la lista parceada.
 	return lp
 
 try:
